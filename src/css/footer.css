@@ -1,0 +1,11 @@
+footer:hover .hidden1{
+    display: none;
+}
+
+.hidden-text{
+    display: none;
+}
+footer:hover .hidden-text{
+    display: block;
+}
+

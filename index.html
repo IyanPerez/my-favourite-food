@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favourite Food</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 <body>
     <main>
@@ -18,25 +20,95 @@
             <div class="section-container">
                 <h2>Ingredients</h2>
                 <ul>
-                    <li><label><input type="checkbox" id="cbox1" value="pizza"> A cheap pre-cooked pizza from your local supermarket </label></li>
-                    <li><label><input type="checkbox" id="cbox2" value="oven"> A used oven, preferably if it's not yours </label></li>
-                    <li><label><input type="checkbox" id="cbox3" value="willpower"> Not even a little of self respect </label></li>
+                    <li><label><input type="checkbox" class="cbox" id="cbox1" value="pizza"> A cheap pre-cooked pizza from your local supermarket </label></li>
+                    <li><label><input type="checkbox" class="cbox" id="cbox2" value="oven"> A used oven, preferably if it's not yours </label></li>
+                    <li><label><input type="checkbox" class="cbox" id="cbox3" value="respect"> Not even a little of self respect </label></li>
                 </ul>
             </div>
         </section>
         
+
+
+
+
+
+
+
+
+
+
+
         <section id="preparation-time-container">
 
-            <div class="section-container">
-                <h2>Preparation</h2>
-                <ul>
+            <div id="preparation-container" class="section-container">
+
+                <div id="preparation-title">
+                    <h2>Preparation</h2>
+                    <button class="section-container" id="start-timer"> Start Cooking </button>
+                </div>
+
+                <div id="step-container">
+                    <h3 id="step-title">Lorem ipsum dolor sit amet.</h3>
+                    <p id="step-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quidem dolore a tempora, architecto repellendus, excepturi labore sapiente accusantium accusamus cupiditate aliquid temporibus maiores necessitatibus saepe perferendis cum esse quas quia, atque error animi sequi odit dolorem. Eum doloremque fuga et ea veniam? Blanditiis vel vitae saepe provident quibusdam totam.</p>
+                </div>
+
                     
             </div>
-            <div class="section-container">
+
+
+
+
+
+
+
+
+
+
+
+            <div id="time-container" class="section-container">
                 <h2>Time</h2>
+                <div id="timer">
+                    <span id="hours">00:</span>
+                    <span id="mins">00:</span>
+                    <span id="seconds">00</span>  
+                </div>
+                <div id="controls">
+                    <button class="section-container" id="start">Start</button>
+                    <button class="section-container" id="stop">Stop</button>
+                    <button class="section-container" id="reset">Reset</button>
+                </div>
             </div>
                 
         </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="section-container">
+                <h2 class="hidden1">Created by I.P.M. Iyan Perez Marcos</h2> 
+                <div class="hidden-text">
+                    <h2>Created by I.P.M. Iyan Pizza Master</h2> 
+                </div>
+            </div>
+        </footer>
     </main>
+    <script src="./src/scripts/main.js"></script>
+    <script src="./src/scripts/timer.js"></script>
 </body>
 </html>
