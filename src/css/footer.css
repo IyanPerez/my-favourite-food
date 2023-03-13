@@ -1,3 +1,9 @@
+footer .section-container{
+    display: flex;
+    justify-content: center;
+}
+
+
 footer:hover .hidden1{
     display: none;
 }
