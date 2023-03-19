@@ -7,7 +7,7 @@
     border-radius: 2vw;
     border: solid 0.4vw;
     box-shadow: 0.5vw 0.5vw 0.5vw rgb(0, 0, 0);
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .section-container input{
     width: 2.50vmin;
@@ -17,7 +17,23 @@
     margin: 0.5vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+
+
+
+#ingredients-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 #preparation-time-container{
+    display: none;
+}
+#preparation-time-flex{
     display: flex;
     width: 100%;
 }
@@ -26,19 +42,33 @@
     justify-content: space-between;
     align-items: center;
 }
-#start-timer, #start , #stop, #reset{
-    padding-block: 1vh;
-    padding-inline: 1.5vw;
+
+
+
+
+
+#time-container{
+    display: none;
+    width:70%;
+}
+#start-timer, #start , #stop, #reset {
+    padding-block: 1%;
+    padding-inline: 2%;
 }
 #start , #stop, #reset{
     width: 80%;
-}
-#time-container{
-    display: none;
 }
 #controls{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 80%;
+}
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-buttons button{
+    font-size: x-large;
+    padding-block: 1%;
 }
