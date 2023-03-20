@@ -7,3 +7,6 @@
     vertical-align: baseline;
     list-style: none;
 }
+button{
+    cursor: pointer;
+}

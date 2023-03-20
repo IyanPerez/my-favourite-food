@@ -20,13 +20,10 @@
 
 
 
-
-
 #ingredients-section{
     display: flex;
     justify-content: space-between;
 }
-
 
 
 
@@ -35,15 +32,15 @@
 }
 #preparation-time-flex{
     display: flex;
-    width: 100%;
 }
 #preparation-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
+#preparation-container{
+    width: 200%;
+}
 
 
 
@@ -54,6 +51,8 @@
 #start-timer, #start , #stop, #reset {
     padding-block: 1%;
     padding-inline: 2%;
+    font-size: 2.5vw;
+
 }
 #start , #stop, #reset{
     width: 80%;
@@ -66,9 +65,9 @@
 }
 .nav-buttons{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .nav-buttons button{
-    font-size: x-large;
+    font-size: 3.5vw;
     padding-block: 1%;
 }
